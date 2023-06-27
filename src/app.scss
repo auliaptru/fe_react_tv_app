@@ -1,0 +1,17 @@
+.app__movie {
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    .app__movie-wrapper {
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+        .app__movies {
+            width: 90%;
+            position: fixed;
+            bottom: 10px;
+        }
+    }
+}
